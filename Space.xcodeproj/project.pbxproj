@@ -18,6 +18,12 @@
 		832202BA28159F780060C5BE /* SpaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832202B928159F780060C5BE /* SpaceTests.swift */; };
 		832202C428159F780060C5BE /* SpaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832202C328159F780060C5BE /* SpaceUITests.swift */; };
 		832202C628159F780060C5BE /* SpaceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832202C528159F780060C5BE /* SpaceUITestsLaunchTests.swift */; };
+		832202D42815A10F0060C5BE /* vzriv.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 832202D22815A10E0060C5BE /* vzriv.mp3 */; };
+		832202DA2815A1D50060C5BE /* Vzriv.sks in Resources */ = {isa = PBXBuildFile; fileRef = 832202D82815A1D50060C5BE /* Vzriv.sks */; };
+		832202DB2815A1D50060C5BE /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 832202D92815A1D50060C5BE /* Starfield.sks */; };
+		83CE31FF282140D400753B6B /* bullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83CE31FE282140D400753B6B /* bullet.mp3 */; };
+		83CE32012821A3D800753B6B /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83CE32002821A3D800753B6B /* MainMenu.sks */; };
+		83CE32032821A83C00753B6B /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CE32022821A83C00753B6B /* MainMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +58,12 @@
 		832202BF28159F780060C5BE /* SpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		832202C328159F780060C5BE /* SpaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceUITests.swift; sourceTree = "<group>"; };
 		832202C528159F780060C5BE /* SpaceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		832202D22815A10E0060C5BE /* vzriv.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vzriv.mp3; sourceTree = "<group>"; };
+		832202D82815A1D50060C5BE /* Vzriv.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Vzriv.sks; sourceTree = "<group>"; };
+		832202D92815A1D50060C5BE /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		83CE31FE282140D400753B6B /* bullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bullet.mp3; path = "../../Space Исходник для игры/Картинки/bullet.mp3"; sourceTree = "<group>"; };
+		83CE32002821A3D800753B6B /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		83CE32022821A83C00753B6B /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +120,13 @@
 				832202A528159F750060C5BE /* GameScene.swift */,
 				832202A728159F750060C5BE /* GameViewController.swift */,
 				832202A928159F750060C5BE /* Main.storyboard */,
+				83CE32002821A3D800753B6B /* MainMenu.sks */,
+				83CE32022821A83C00753B6B /* MainMenu.swift */,
 				832202AC28159F780060C5BE /* Assets.xcassets */,
+				832202D92815A1D50060C5BE /* Starfield.sks */,
+				832202D82815A1D50060C5BE /* Vzriv.sks */,
+				83CE31FE282140D400753B6B /* bullet.mp3 */,
+				832202D22815A10E0060C5BE /* vzriv.mp3 */,
 				832202AE28159F780060C5BE /* LaunchScreen.storyboard */,
 			);
 			path = Space;
@@ -235,9 +253,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832202DA2815A1D50060C5BE /* Vzriv.sks in Resources */,
+				83CE31FF282140D400753B6B /* bullet.mp3 in Resources */,
+				832202D42815A10F0060C5BE /* vzriv.mp3 in Resources */,
+				83CE32012821A3D800753B6B /* MainMenu.sks in Resources */,
 				832202AB28159F750060C5BE /* Main.storyboard in Resources */,
 				832202A228159F750060C5BE /* GameScene.sks in Resources */,
 				832202AD28159F780060C5BE /* Assets.xcassets in Resources */,
+				832202DB2815A1D50060C5BE /* Starfield.sks in Resources */,
 				832202B028159F780060C5BE /* LaunchScreen.storyboard in Resources */,
 				832202A428159F750060C5BE /* Actions.sks in Resources */,
 			);
@@ -267,6 +290,7 @@
 				832202A628159F750060C5BE /* GameScene.swift in Sources */,
 				832202A828159F750060C5BE /* GameViewController.swift in Sources */,
 				832202A028159F750060C5BE /* AppDelegate.swift in Sources */,
+				83CE32032821A83C00753B6B /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +523,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZMR69NM2NL;
@@ -524,6 +549,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZMR69NM2NL;
